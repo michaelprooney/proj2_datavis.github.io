@@ -12,7 +12,7 @@ body {
 </style>
     <title>Project 2: Chinese Population Data</title>
   <body>
-    <h1>China's Past Population is Indicative of their Future</h1>
+    <h1>Does China's Past Population Give Us an Insight Into Their Future?</h1>
     <h3>Visualizations created by Michael Rooney</h3>
     <h4>Chinese population data exploration</h4>
     <p>Chess is a game which appears to be increasingly complex the more you get into learning it. From my perspective, just the thought of playing higher rated players who knew exponentially
@@ -25,7 +25,7 @@ body {
     The graphs below display the data from a <a href=https://lichess.org>Lichess</a> dataset <a href=https://www.kaggle.com/datasets/datasnaek/chess>found on Kaggle</a>. The first relationship we will be exploring
     is between the number of opening moves and the type of opening.
     </p>
-
+<!-- Chinese Population by Year -->
     <div id="observablehq-viewof-time-1fdf5ea2"></div>
     <div id="observablehq-china_display-1fdf5ea2"></div>
 <!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@619">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
@@ -40,7 +40,7 @@ body {
       return ["resultMap"].includes(name);
     });
     </script>
-    
+<!-- Chinese Average Change -->
     <div id="observablehq-china_average_change-1fdf5ea2"></div>
 <!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@619">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
     
@@ -52,28 +52,28 @@ body {
       if (name === "china_average_change") return new Inspector(document.querySelector("#observablehq-china_average_change-1fdf5ea2"));
     });
     </script>
-
-    <div id="observablehq-percentage_plot-f8eeca4b"></div>
-<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@654">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
+<!-- Percentage Plot -->
+    <div id="observablehq-percentage_plot-91c3dda0"></div>
+<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@656">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
     <script type="module">
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@654.js?v=4";
+    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@656.js?v=4";
     new Runtime().module(define, name => {
-      if (name === "percentage_plot") return new Inspector(document.querySelector("#observablehq-percentage_plot-f8eeca4b"));
+      if (name === "percentage_plot") return new Inspector(document.querySelector("#observablehq-percentage_plot-91c3dda0"));
     });
     </script>
-
-    <div id="observablehq-fertility_plot-f8eeca4b"></div>
-<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@654">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
+<!-- fertility plot -->
+    <div id="observablehq-fertility_plot-91c3dda0"></div>
+<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@656">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
     <script type="module">
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@654.js?v=4";
+    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@656.js?v=4";
     new Runtime().module(define, name => {
-      if (name === "fertility_plot") return new Inspector(document.querySelector("#observablehq-fertility_plot-f8eeca4b"));
+      if (name === "fertility_plot") return new Inspector(document.querySelector("#observablehq-fertility_plot-91c3dda0"));
     });
     </script>
     
