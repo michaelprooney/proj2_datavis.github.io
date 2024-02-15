@@ -53,7 +53,29 @@ body {
     });
     </script>
 
+    <div id="observablehq-percentage_plot-f8eeca4b"></div>
+<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@654">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@654.js?v=4";
+    new Runtime().module(define, name => {
+      if (name === "percentage_plot") return new Inspector(document.querySelector("#observablehq-percentage_plot-f8eeca4b"));
+    });
+    </script>
+
+    <div id="observablehq-fertility_plot-f8eeca4b"></div>
+<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@654">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@654.js?v=4";
+    new Runtime().module(define, name => {
+      if (name === "fertility_plot") return new Inspector(document.querySelector("#observablehq-fertility_plot-f8eeca4b"));
+    });
+    </script>
     
     <div id="plot">
     </div>
