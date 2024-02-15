@@ -25,20 +25,36 @@ body {
     The graphs below display the data from a <a href=https://lichess.org>Lichess</a> dataset <a href=https://www.kaggle.com/datasets/datasnaek/chess>found on Kaggle</a>. The first relationship we will be exploring
     is between the number of opening moves and the type of opening.
     </p>
-    <div id="observablehq-viewof-china_year-3de4e715"></div>
-    <div id="observablehq-china_display-3de4e715"></div>
-    <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55">Untitled by Michael Rooney&#039;s Workspace</a></p>
+
+    <div id="observablehq-viewof-time-1fdf5ea2"></div>
+    <div id="observablehq-china_display-1fdf5ea2"></div>
+<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@619">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
     <script type="module">
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
-    import define from "https://api.observablehq.com/d/4a6c7dec08685d55.js?v=4";
+    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@619.js?v=4";
     new Runtime().module(define, name => {
-      if (name === "viewof china_year") return new Inspector(document.querySelector("#observablehq-viewof-china_year-3de4e715"));
-      if (name === "china_display") return new Inspector(document.querySelector("#observablehq-china_display-3de4e715"));
+      if (name === "viewof time") return new Inspector(document.querySelector("#observablehq-viewof-time-1fdf5ea2"));
+      if (name === "china_display") return new Inspector(document.querySelector("#observablehq-china_display-1fdf5ea2"));
       return ["resultMap"].includes(name);
     });
     </script>
+    
+    <div id="observablehq-china_average_change-1fdf5ea2"></div>
+<!--     <p>Credit: <a href="https://observablehq.com/d/4a6c7dec08685d55@619">Untitled by Michael Rooney&#039;s Workspace</a></p> -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+    import define from "https://api.observablehq.com/d/4a6c7dec08685d55@619.js?v=4";
+    new Runtime().module(define, name => {
+      if (name === "china_average_change") return new Inspector(document.querySelector("#observablehq-china_average_change-1fdf5ea2"));
+    });
+    </script>
+
+    
+    
     <div id="plot">
     </div>
     <p>Now, the next relationship we will be exploring is between game outcomes and the difference in ratings between two opponents.</p>
